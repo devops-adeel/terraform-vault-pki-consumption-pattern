@@ -39,7 +39,7 @@ build {
 
     extra_arguments = [
       "--extra-vars",
-      "'packer_build=true vault_version=${var.vault_version}'",
+      "'packer_build=true vault_version=${var.vault_version} vault_agent=true'",
     ]
   }
 
